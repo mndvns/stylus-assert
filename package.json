@@ -1,0 +1,27 @@
+{
+  "name": "stylus-assert",
+  "version": "0.1.0",
+  "description": "Assert for Stylus",
+  "main": "lib/assert.js",
+  "scripts": {
+    "test": "mocha -r should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mvanasse/stylus-assert.git"
+  },
+  "keywords": [
+    "stylus",
+    "assert",
+    "test"
+  ],
+  "author": "Michael Vanasse <michaelvanasse@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~3.1.2",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "stylus": "~0.42.2"
+  }
+}
